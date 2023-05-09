@@ -14,9 +14,12 @@ words= ["apple","toast","Beat","Beautiful","Bed","Belated","Believe","Below","Be
 def choseWord(words):
     return random.choice(words)
 
+def game(word):
+    # number of tries given to the player
+    turns= len(word)+3
+    print(turns)
+    print(word)
+    return 0
 
-
-
-# def game(word):
-
-
+# test whole game
+game(choseWord(words))
