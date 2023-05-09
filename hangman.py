@@ -11,8 +11,11 @@ import random
 
 words= ["apple","toast","Beat","Beautiful","Bed","Belated","Believe","Below","Best","Better","Billion","Blood","Bloom","Book"]
 
-word= random.choice(words)
-print(word)
+def choseWord(words):
+    return random.choice(words)
+
+
+
 
 # def game(word):
 
