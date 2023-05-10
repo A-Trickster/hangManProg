@@ -31,7 +31,7 @@ def game(word):
         print(answer)
         print(Input)
 
-
+        #Ask the player for input
         guess = input("Guess a letter: ").upper()
         print(guess)
     
