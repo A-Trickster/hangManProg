@@ -20,8 +20,20 @@ def game(word):
     print(turns)
     print(word)
 
-    guess = input("Guess a letter: ").upper()
-    print(guess)
+    Input=''
+    while turns>0:
+        answer =""
+        for letter in word:
+            if letter in Input:
+                answer += letter
+            else:
+                answer +="_"
+        print(answer)
+        print(Input)
+
+
+        guess = input("Guess a letter: ").upper()
+        print(guess)
     
 
 # test whole game
